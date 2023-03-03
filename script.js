@@ -6,4 +6,4 @@ var BadApple = {
 for (let i = 0; i < 100; i++) {
     inputs.push(document.querySelector("#input" + (i+1)))
 }
-document.getElementById(".data-loading").style.display = "none"
+document.querySelector(".data-loading").style.display = "none"
