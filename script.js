@@ -276,5 +276,5 @@ setInterval(() => {
     for (let i = 0; i < inputs.length; i++) {
         inputs[i].style.opacity = BadApple.items["_" + BadApple.frame][i]
     }
-    BadApple.frame +=1
+    BadApple.frame += 1
 }, 50);
