@@ -270,7 +270,7 @@ for (let i = 0; i < 100; i++) {
     inputs.push(document.querySelector("#input" + (i+1)))
 }
 
-document0querySelector(".data-loading").style.display = "none"
+document.querySelector(".data-loading").style.display = "none"
 
 setInterval(() => {
     for (let i = 0; i < inputs.length; i++) {
